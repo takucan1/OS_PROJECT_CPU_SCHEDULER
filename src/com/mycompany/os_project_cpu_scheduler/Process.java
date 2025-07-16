@@ -6,7 +6,7 @@ package com.mycompany.os_project_cpu_scheduler;
 
 /**
  *
- * @author Takucan
+ * @author Aledon & Tipactipac
  */
 public class Process {
     public String id;
