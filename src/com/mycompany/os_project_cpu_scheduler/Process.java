@@ -9,5 +9,20 @@ package com.mycompany.os_project_cpu_scheduler;
  * @author Takucan
  */
 public class Process {
-    
+    public String id;
+    public int arrivalTime;
+    public int burstTime;
+    public int remainingTime;
+    public int completionTime;
+    public int turnaroundTime;
+    public int responseTime;
+    public int startTime = -1;
+    public int queueLevel = -1; // For MLFQ
+
+    public Process(String id, int arrivalTime, int burstTime) {
+        this.id = id;
+        this.arrivalTime = arrivalTime;
+        this.burstTime = burstTime;
+        this.remainingTime = burstTime;
+    }
 }
