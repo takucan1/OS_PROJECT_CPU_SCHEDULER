@@ -28,12 +28,6 @@ This project is a web-based simulation of classic CPU scheduling algorithms. It 
 - **MLFQ (Multi-Level Feedback Queue):**
   - Processes are scheduled using multiple queues with different time quantums, allowing dynamic priority changes.
 
-## Screenshots
-> ![Main Interface](screenshots/main_interface.png)
-> ![Gantt Chart Example](screenshots/gantt_chart_example.png)
-
-*If screenshots are not visible, please add PNG images to the `screenshots/` folder as shown above.*
-
 ## Sample Input & Expected Output
 **Sample Input:**
 - Processes: 3
@@ -59,5 +53,9 @@ This project is a web-based simulation of classic CPU scheduling algorithms. It 
 - Screenshots folder is not included by default; add your own for documentation.
 - Only supports up to 10 unique process colors in the Gantt chart.
 
+
+## Group contribution
+- Aledon - Index.html, style, FCFS, RoundRobin, scheduler, script.
+- Tipactipac - Scheduler, script, SJF,SRTF, MLFQ.
 ---
 For questions, bug reports, or suggestions, please contact Takucan (2025).
