@@ -58,4 +58,3 @@ This project is a web-based simulation of classic CPU scheduling algorithms. It 
 - Aledon - Index.html, style, FCFS, RoundRobin, scheduler, script.
 - Tipactipac - Scheduler, script, SJF,SRTF, MLFQ.
 ---
-For questions, bug reports, or suggestions, please contact Takucan (2025).
