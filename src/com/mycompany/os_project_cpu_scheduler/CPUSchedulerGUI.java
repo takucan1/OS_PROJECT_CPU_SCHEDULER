@@ -50,7 +50,7 @@ public class CPUSchedulerGUI extends JFrame {
         quantumLabel.setBounds(620, 20, 80, 25);
         add(quantumLabel);
 
-        quantumField = new JTextField("2,4,8,999");
+        quantumField = new JTextField("");
         quantumField.setBounds(700, 20, 80, 25);
         add(quantumField);
 
