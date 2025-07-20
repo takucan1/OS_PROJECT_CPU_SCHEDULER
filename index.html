@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="styles.css" />
+  
+  
+    <div class="container">
+      <h1>CPU Scheduler Simulation</h1>
+
+      <div class="section">
+        <label>Select Input Method:</label>
+        <select id="inputMethod">
+          <option value="manual">Manual</option>
+          <option value="random">Random</option>
+        </select>
+      </div>
+
+      <div class="section">
+        <label for="numProcesses">Number of Processes:</label>
+        <input type="number" id="numProcesses" min="1" />
+        <button onclick="generateProcessInputs()">Generate</button>
+      </div>
+
+      <div id="processInputs" class="section"></div>
+
+      <div class="section">
+        <label>Select Scheduling Algorithm:</label>
+        <select id="algorithm">
+          <option value="fcfs">FCFS</option>
+          <option value="sjf">SJF</option>
+          <option value="srtf">SRTF</option>
+          <option value="rr">Round Robin</option>
+          <option value="mlfq">MLFQ</option>
+        </select>
+        <div id="quantumInput" style="display:none;">
+          <label>Time Quantum:</label>
+          <input type="number" id="quantum" min="1" />
+        
+          <div id="mlfqExtra" style="margin-top: 10px; display: none;">
+            <label>Allotment Time:</label>
+            <input type="number" id="allotment" min="1" />
+          </div>
+        </div>
+        <div id="contextSwitchDiv" style="margin-top: 10px;">
+          <label>Context Switch Delay:</label>
+          <input type="number" id="contextSwitch" min="0" value="0" />
+        </div>
+      </div>
+
+      <div class="section">
+        <button onclick="submitData()">Run Scheduler</button>
+        <button id="resetBtn" onclick="fullReset()" style="margin-left:10px;">Reset</button>
+        <button onclick="exportResults()" style="margin-left:10px;">Export Results</button>
+      </div>
+
+      <div id="output" class="section">
+        <h2>Results</h2>
+        <!-- Results will be injected here -->
+      </div>
+
+      <div class="section" id="liveChatSection" style="margin-bottom:20px;">
+        <h3>Live Chat / Updates</h3>
+        <div id="liveChatBox" style="background:#f4f8ff;border-radius:8px;padding:10px;min-height:60px;max-height:120px;overflow-y:auto;margin-bottom:8px;"></div>
+        <input type="text" id="liveChatInput" placeholder="Type a message..." style="width:70%;padding:6px;" />
+        <button onclick="sendLiveChat()" style="padding:6px 12px;">Send</button>
+      </div>
+    </div>
+
+    <script src="scheduler.js"></script>
+    <script src="script.js"></script>

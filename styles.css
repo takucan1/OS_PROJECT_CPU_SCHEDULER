@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0c1b3c;
+  color: #d0eaff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  background: #142e54;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 136, 255, 0.3);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5ecdf8;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #d0eaff;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  background-color: #1e3a63;
+  border: 1px solid #5ecdf8;
+  border-radius: 6px;
+  color: #d0eaff;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #5ecdf8;
+  color: #0c1b3c;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #81dcff;
+}
+
+#output {
+  background: #1b365f;
+  padding: 20px;
+  border-radius: 10px;
+  color: #d0eaff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #5ecdf8;
+  text-align: center;
+  background-color: #1e3a63;
+  color: #d0eaff;
+}
+
+th {
+  background-color: #28598f;
+}
+
+/* Live chat box background and text color */
+#liveChatBox {
+  background: #f4f8ff;
+  color: #1a2332; /* dark blue for visibility */
+}
+
+/* Make chat messages even clearer */
+#liveChatBox div {
+  color: #1a2332; /* dark blue for all messages */
+}
+
