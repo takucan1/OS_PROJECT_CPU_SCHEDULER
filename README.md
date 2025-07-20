@@ -52,7 +52,7 @@ This project is a web-based simulation of classic CPU scheduling algorithms. It 
 <img width="744" height="763" alt="image" src="https://github.com/user-attachments/assets/d35a75d7-5700-49bc-8e99-b9894dd1fd80" />
 <img width="732" height="748" alt="image" src="https://github.com/user-attachments/assets/f9efc648-afa8-4f22-a5e6-41791f93002a" />
 
-
+=============================================================================
 
 
 **SJF**
@@ -60,6 +60,7 @@ This project is a web-based simulation of classic CPU scheduling algorithms. It 
 <img width="733" height="734" alt="image" src="https://github.com/user-attachments/assets/d2950fa7-3a9c-4639-bad5-c0230c03a597" />
 
 
+=============================================================================
 
 
 
@@ -69,6 +70,7 @@ This project is a web-based simulation of classic CPU scheduling algorithms. It 
 
 
 
+=============================================================================
 
 
 
@@ -78,6 +80,7 @@ This project is a web-based simulation of classic CPU scheduling algorithms. It 
 <img width="1159" height="860" alt="image" src="https://github.com/user-attachments/assets/1268de8d-2344-406c-984e-49d87fbba02b" />
 
 
+=============================================================================
 
 
 
@@ -85,6 +88,7 @@ This project is a web-based simulation of classic CPU scheduling algorithms. It 
 <img width="337" height="118" alt="image" src="https://github.com/user-attachments/assets/0ea71d13-e484-4e21-be30-8305493c9e16" />
 
 
+=============================================================================
 
 
 
